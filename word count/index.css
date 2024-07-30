@@ -1,0 +1,79 @@
+body{
+    border: 1px solid black;
+    height: 670px;
+}
+.getinput{
+    height: 150px;
+    width: 1000px;
+    margin: 30px;
+    font-size: 110px;
+    border: 2px solid black;
+}
+.one{
+    display: flex;
+}
+.wordcountbtn{
+    height: 70px;
+    width: 100px;
+    border: 2px solid black;
+    margin-top: 30px;
+}
+.wordcount2btn{
+    height: 70px;
+    width: 100px;
+    border: 2px solid black;
+    margin-top: 5px;
+}
+.wordcount{
+    height: 65px;
+    width: 140px;
+    border: 2px solid black;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: large;
+}
+.wordcount2{
+    height: 65px;
+    width: 140px;
+    border: 2px solid black;
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: large;
+}
+.countall{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.allbtn{
+    display: flex;
+    margin-top: 50px;
+}
+.allbtn button{
+    height: 100px;
+    width: 150px;
+    margin-left: 170px;
+    font-size: large;
+}
+.two{
+    display: flex;
+}
+.preview{
+    height: 150px;
+    width: 1200px;
+    margin-left: 30px;
+    margin-top: 120px;
+    font-size: 110px;
+    border: 2px solid black;
+}
+.bin{
+    color: black;
+}
+.binbtn{
+    height: 155px;
+    width: 160px;
+    margin-left: 50px;
+    margin-top: 120px;
+    font-size: 110px;
+    border: 2px solid black;
+}

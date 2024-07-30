@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Count</title>
+
+    <!-- font awsome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- css link -->
+     <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+
+    <div>
+        <div class="one">
+            <div>
+                <input type="text" class="getinput" placeholder="Enter Text Here...." id="inputText">
+            </div>
+            <div class="countall">
+                <div>
+                    <button class="wordcountbtn" onclick="countWords();">Word Count</button>
+                    <!-- <input type="text" class="wordcount" placeholder="Word Count"> -->
+                </div>
+                <div>
+                    <button class="wordcount2btn" onclick="countChars();">Char Count</button>
+                    <!-- <input type="text" class="wordcount2" placeholder="Char Count">  -->
+                </div>
+            </div>
+        </div>
+
+
+        <div class="allbtn">
+            <button onclick="toUpperCase();">Uppercase</button>
+            <button onclick="toLowerCase();">Lowercase</button>
+            <button onclick="copyText();">Copy</button>
+            <button onclick="removeExtraSpaces();">Remove Extra Space</button>
+        </div>
+
+
+        <div class="two">
+            <div>
+                <div id="preview" class="preview"></div>
+            </div>
+            <div>
+                <button class="binbtn" onclick="clearText();">
+                    <i class="fa-solid fa-trash-can bin"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    
+   <!-- js link -->
+    <script src="index.js"></script>
+</body>
+</html>
