@@ -1,0 +1,76 @@
+nav{
+    font-size: 50px;
+    text-align: center;
+
+}
+.main {
+    border: 2px solid black;
+    height: 500px;
+    width: 400px;
+    margin: auto;
+    margin-top: 4%;
+}
+
+#one {
+    height: 50px;
+    width: 350px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: xx-large;
+    text-align: center;
+}
+
+#two {
+    height: 50px;
+    width: 350px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.add {
+    height: 50px;
+    width: 40%;
+    margin-left: 20px;
+    margin-top: 40px;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.sub {
+    height: 50px;
+    width: 40%;
+    margin-left: 20px;
+    margin-top: 40px;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.multi {
+    height: 50px;
+    width: 40%;
+    margin-left: 20px;
+    margin-top: 40px;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.divi {
+    height: 50px;
+    width: 40%;
+    margin-left: 20px;
+    margin-top: 40px;
+    font-size: xx-large;
+    text-align: center;
+}
+
+#ans {
+    height: 80px;
+    width: 350px;
+    margin-left: 20px;
+    margin-top: 60px;
+    font-size: 100px;
+    text-align: center;
+    font-weight: bolder;
+}
