@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- font awsome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- css link -->
+    <link rel="stylesheet" href="index.css">
+
+
+</head>
+
+<body>
+
+    <!-- -----------------starting of nav bar--------------- -->
+    <nav class="navbar navbar-expand-lg bg-body-red">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item me-5">
+                        <a class="nav-link active link-light" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <button id="cartbtn" class="btn btn-outline-danger cartbtn" type="submit">Cart</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- ------------------ end of nav bar----------------------- -->
+
+    <!-- -------------- starting of card section------------- -->
+
+
+    <!-- ----------filters----------- -->
+    <section class="filters">
+        <input type="checkbox" id="alldisplay">
+        <label for="">All</label>
+
+        <input type="checkbox" id="mendisplay">
+        <label for="">Mens</label>
+
+        <input type="checkbox" id="womendisplay">
+        <label for="">Womens</label>
+    </section>
+
+    <section>
+
+        <!-- -----------------row 1---------------- -->
+        <div class="row1">
+            <!-- --------------1st card------------ -->
+            <div id="cardd1" class="product-card">
+                <div class="badge">Hot</div>
+                <div class="product-tumb">
+                    <img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1716375827_3488629.jpg?format=webp&w=480&dpr=1.3"
+                        alt="">
+                </div>
+                <div class="product-details">
+                    <span class="product-catagory">Oversized T-Shirts</span>
+                    <h4 class="cardtitle"><a href="">Deadpool: Great Irresponsibility</a></h4>
+
+                    <div class="product-bottom-details">
+                        <div class="product-price"><small>₹ 1,200</small>₹ 999</div>
+                        <div class="product-links">
+
+                            <button><i id="incart" class="fa-solid fa-cart-plus"></i></button>
+                            <button><i id="outcart" class="fa-solid fa-check-to-slot"></i></button>
+                            <input id="cartcheckbox" type="checkbox">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- -------------------- card 2------------------------- -->
+            <div id="cardd2" class="product-card">
+                <div class="badge">Hot</div>
+                <div class="product-tumb">
+                    <img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1717862754_1122602.jpg?format=webp&w=480&dpr=1.3" alt="">
+                </div>
+                <div class="product-details">
+                    <span class="product-catagory">Oversized Shirts</span>
+                    <h4 class="cardtitle"><a href="">Spider-Man: Friendly Neighbourhood Hero</a></h4>
+
+                    <div class="product-bottom-details">
+                        <div class="product-price"><small>₹ 2000</small>₹ 1799</div>
+                        <div class="product-links">
+
+                            <button><i id="incart2" class="fa-solid fa-cart-plus"></i></button>
+                            <button><i id="outcart2" class="fa-solid fa-check-to-slot"></i></button>
+                            <input id="cartcheckbox2" type="checkbox">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- -------------------- card 3------------------------- -->
+            <div id="cardd3" class="product-card">
+                <div class="badge">Hot</div>
+                <div class="product-tumb">
+                    <img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1721456588_6646595.jpg?format=webp&w=480&dpr=1.3" alt="">
+                </div>
+                <div class="product-details">
+                    <span class="product-catagory">Oversized T-Shirts</span>
+                    <h4 class="cardtitle"><a href="">Deadpool: Action Packed</a></h4><div class="settlement">...</div>
+                    <div class="product-bottom-details">
+                        <div class="product-price"><small>₹ 1500</small>₹ 1199</div>
+                        <div class="product-links">
+
+                            <button><i id="incart3" class="fa-solid fa-cart-plus"></i></button>
+                            <button><i id="outcart3" class="fa-solid fa-check-to-slot"></i></button>
+                            <input id="cartcheckbox3" type="checkbox">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- -------------------- card 4------------------------- -->
+            <div id="cardd4" class="product-card">
+                <div class="badge">Hot</div>
+                <div class="product-tumb">
+                    <img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1717405774_2009625.jpg?format=webp&w=480&dpr=1.3" alt="">
+                </div>
+                <div class="product-details">
+                    <span class="product-catagory">Oversized T-Shirts</span>
+                    <h4 class="cardtitle"><a href="">TMNT: Cowabunga</a></h4>
+                    <div class="settlement">...</div>
+                    <div class="product-bottom-details">
+                        <div class="product-price"><small>₹ 1200</small>₹ 1049</div>
+                        <div class="product-links">
+
+                            <button><i id="incart4" class="fa-solid fa-cart-plus"></i></button>
+                            <button><i id="outcart4" class="fa-solid fa-check-to-slot"></i></button>
+                            <input id="cartcheckbox4" type="checkbox">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- -------------------- card 5------------------------- -->
+            <div id="cardd5" class="product-card">
+                <div class="badge">Hot</div>
+                <div class="product-tumb">
+                    <img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1710829195_2469715.jpg?format=webp&w=480&dpr=1.3" alt="">
+                </div>
+                <div class="product-details">
+                    <span class="product-catagory">Oversized T-Shirts</span>
+                    <h4 class="cardtitle"><a href="">Kung Fu Panda: Warrior Business</a></h4>
+
+                    <div class="product-bottom-details">
+                        <div class="product-price"><small>₹ 1200</small>₹ 999</div>
+                        <div class="product-links">
+
+                            <button><i id="incart5" class="fa-solid fa-cart-plus"></i></button>
+                            <button><i id="outcart5" class="fa-solid fa-check-to-slot"></i></button>
+                            <input id="cartcheckbox5" type="checkbox">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        </div>
+
+        <!-- -----------------row 1---------------- -->
+        <div class="row1">
+            <!-- -------------------- card 6------------------------- -->
+            <div id="cardd6" class="product-card">
+                <div class="badge">Hot</div>
+                <div class="product-tumb">
+                    <img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1722524426_8642029.jpg?format=webp&w=480&dpr=1.3" alt="">
+                </div>
+                <div class="product-details">
+                    <span class="product-catagory">Women Oversized T-Shirts</span>
+                    <h4 class="cardtitle"><a href="">TSS Originals: Souled Thread</a></h4>
+
+                    <div class="product-bottom-details">
+                        <div class="product-price"><small>₹ 1500</small>₹ 1299</div>
+                        <div class="product-links">
+
+                            <button><i id="incart6" class="fa-solid fa-cart-plus"></i></button>
+                            <button><i id="outcart6" class="fa-solid fa-check-to-slot"></i></button>
+                            <input id="cartcheckbox6" type="checkbox">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- -------------------- card 7------------------------- -->
+            <div id="cardd7" class="product-card">
+                <div class="badge">Hot</div>
+                <div class="product-tumb">
+                    <img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1711708858_5855709.jpg?format=webp&w=480&dpr=1.3" alt="">
+                </div>
+                <div class="product-details">
+                    <span class="product-catagory">Women Oversized T-Shirts</span>
+                    <h4 class="cardtitle"><a href="">Disney: Fire, Magic, Desire</a></h4>
+                    <div class="settlement">...</div>
+                    <div class="product-bottom-details">
+                        <div class="product-price"><small>₹ 1000</small>₹ 699</div>
+                        <div class="product-links">
+
+                            <button><i id="incart7" class="fa-solid fa-cart-plus"></i></button>
+                            <button><i id="outcart7" class="fa-solid fa-check-to-slot"></i></button>
+                            <input id="cartcheckbox7" type="checkbox">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- -------------------- card 8------------------------- -->
+            <div id="cardd8" class="product-card">
+                <div class="badge">Hot</div>
+                <div class="product-tumb">
+                    <img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1720422278_9708236.jpg?format=webp&w=480&dpr=1.3" alt="">
+                </div>
+                <div class="product-details">
+                    <span class="product-catagory">Women Oversized T-Shirts</span>
+                    <h4 class="cardtitle"><a href="">TSS Originals: Soul Spark</a></h4>
+                    <div class="settlement">...</div>
+                    <div class="product-bottom-details">
+                        <div class="product-price"><small>₹ 1200</small>₹ 999</div>
+                        <div class="product-links">
+
+                            <button><i id="incart8" class="fa-solid fa-cart-plus"></i></button>
+                            <button><i id="outcart8" class="fa-solid fa-check-to-slot"></i></button>
+                            <input id="cartcheckbox8" type="checkbox">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- -------------------- card 9------------------------- -->
+            <div id="cardd9" class="product-card">
+                <div class="badge">Hot</div>
+                <div class="product-tumb">
+                    <img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1714974511_3405123.png?format=webp&w=480&dpr=1.3" alt="">
+                </div>
+                <div class="product-details">
+                    <span class="product-catagory">Women Oversized T-Shirts</span>
+                    <h4 class="cardtitle"><a href="">Garfield: Attitude</a></h4>
+                    <div class="settlement">...</div>
+                    <div class="product-bottom-details">
+                        <div class="product-price"><small>₹ 1000</small>₹ 799</div>
+                        <div class="product-links">
+
+                            <button><i id="incart9" class="fa-solid fa-cart-plus"></i></button>
+                            <button><i id="outcart9" class="fa-solid fa-check-to-slot"></i></button>
+                            <input id="cartcheckbox9" type="checkbox">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- -------------------- card 10------------------------- -->
+            <div id="cardd10" class="product-card">
+                <div class="badge">Hot</div>
+                <div class="product-tumb">
+                    <img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1722525288_4935513.jpg?format=webp&w=480&dpr=1.3" alt="">
+                </div>
+                <div class="product-details">
+                    <span class="product-catagory">Women Oversized T-Shirts</span>
+                    <h4 class="cardtitle"><a href="">Harry Potter: Gryffindor</a></h4>
+                    <div class="settlement">...</div>
+                    <div class="product-bottom-details">
+                        <div class="product-price"><small>₹ 1000</small>₹ 899</div>
+                        <div class="product-links">
+
+                            <button><i id="incart10" class="fa-solid fa-cart-plus"></i></button>
+                            <button><i id="outcart10" class="fa-solid fa-check-to-slot"></i></button>
+                            <input id="cartcheckbox10" type="checkbox">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </sectiondiv>
+
+
+    </section>
+    <!-- -------------- ending of card section------------- -->
+<br><br>
+    <!-- -----------------------------starting of footer------------------------ -->
+
+    <!-- Site footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h6>About</h6>
+                    <p class="text-justify">We create and curate stunning designs and print them on all sorts of equally stunning products- from t-shirts to phone covers to backpacks to boxers to mugs to socks to badges to pins to hoodies and many, many more! Our funky products are designed and printed specifically to spread happiness, right down to the bottom of your ‘soul’. A recent study by our internal, self-funded, fashion forward (and totally unbiased) team showed that if you buy from www.thesouledstore.com, it increases your lifespan by 7.5%. So if you’re looking for great products, with even greater deals and discounts, you’ve come to the right place!</p>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Categories</h6>
+                    <ul class="footer-links">
+                        <li>Oversized T-shirts</li>
+                        <li>Casual Shirts</li>
+                        <li>Polos</li>
+                        <li>Solid T-shirts</li>
+                        <li>Classic Fit T-shirts</li>
+                        <li>Oversized Full Sleeve</li>
+                    </ul>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Quick Links</h6>
+                    <ul class="footer-links">
+                        <li>About Us</li>
+                        <li>Contact Us</li>
+                        <li>Contribute</li>
+                        <li>Privacy Policy</li>
+                        <li>Sitemap</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">With &#10084; by Vansh Thakkar.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ------------------------ending of footer---------------------------------- -->
+
+
+
+    <!-- js link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- external js link -->
+    <script src="index.js">
+    </script>
+
+</body>
+
+</html>
